@@ -8,7 +8,7 @@ export default function Header(props) {
   return (
     <React.Fragment>
       <header className={classes.header}>
-        <img src={logoImage} className={classes.logo} />
+        <img src={logoImage} className={classes.logo} alt="A table full of delicious food" />
 
         <HeaderCartButton />
       </header>
